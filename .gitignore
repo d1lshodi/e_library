@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+.localenv
+
+# Database
+db.sqlite3
+*.sql
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Secret keys
+*.secretkey
+
+# Log files
+*.log
+
+# Generated documentation
+/docs/_build/
+
+# Environment-specific files
+.envrc
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled Python modules
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore migration files if using Django's built-in migrations
+**/migrations/
+
+# Ignore local development files
+local_settings.py
